@@ -111,6 +111,7 @@ class HybridIOSTests(unittest.TestCase):
     def test_ScreenTrackClick(self):
         self.driver.find_element_by_id("Screen-Track").click();
         self.driver.find_element_by_id("Custom Screen Name").click();
+        
     
     #Crash Test case
     def test_CrashOnViewLoadClick(self):
